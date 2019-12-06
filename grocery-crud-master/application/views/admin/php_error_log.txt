@@ -1,0 +1,27 @@
+[09-Nov-2018 11:50:59 Asia/Dhaka] PHP Warning:  Use of undefined constant total_page - assumed 'total_page' (this will throw an Error in a future version of PHP) in D:\xampp728\htdocs\r37m\jQuery\class05\blog\admin\articlesHandler.php on line 26
+[09-Nov-2018 11:50:59 Asia/Dhaka] PHP Warning:  Use of undefined constant record_data - assumed 'record_data' (this will throw an Error in a future version of PHP) in D:\xampp728\htdocs\r37m\jQuery\class05\blog\admin\articlesHandler.php on line 27
+[09-Nov-2018 11:51:06 Asia/Dhaka] PHP Warning:  Use of undefined constant total_page - assumed 'total_page' (this will throw an Error in a future version of PHP) in D:\xampp728\htdocs\r37m\jQuery\class05\blog\admin\articlesHandler.php on line 26
+[09-Nov-2018 11:51:06 Asia/Dhaka] PHP Warning:  Use of undefined constant record_data - assumed 'record_data' (this will throw an Error in a future version of PHP) in D:\xampp728\htdocs\r37m\jQuery\class05\blog\admin\articlesHandler.php on line 27
+[09-Nov-2018 11:51:59 Asia/Dhaka] PHP Warning:  Use of undefined constant total_page - assumed 'total_page' (this will throw an Error in a future version of PHP) in D:\xampp728\htdocs\r37m\jQuery\class05\blog\admin\articlesHandler.php on line 26
+[09-Nov-2018 11:51:59 Asia/Dhaka] PHP Warning:  Use of undefined constant record_data - assumed 'record_data' (this will throw an Error in a future version of PHP) in D:\xampp728\htdocs\r37m\jQuery\class05\blog\admin\articlesHandler.php on line 27
+[09-Nov-2018 11:52:35 Asia/Dhaka] PHP Warning:  Use of undefined constant total_page - assumed 'total_page' (this will throw an Error in a future version of PHP) in D:\xampp728\htdocs\r37m\jQuery\class05\blog\admin\articlesHandler.php on line 26
+[09-Nov-2018 11:52:35 Asia/Dhaka] PHP Warning:  Use of undefined constant record_data - assumed 'record_data' (this will throw an Error in a future version of PHP) in D:\xampp728\htdocs\r37m\jQuery\class05\blog\admin\articlesHandler.php on line 27
+[09-Nov-2018 11:53:49 Asia/Dhaka] PHP Warning:  Use of undefined constant total_page - assumed 'total_page' (this will throw an Error in a future version of PHP) in D:\xampp728\htdocs\r37m\jQuery\class05\blog\admin\articlesHandler.php on line 21
+[09-Nov-2018 11:53:49 Asia/Dhaka] PHP Warning:  Use of undefined constant record_data - assumed 'record_data' (this will throw an Error in a future version of PHP) in D:\xampp728\htdocs\r37m\jQuery\class05\blog\admin\articlesHandler.php on line 22
+[10-Nov-2018 10:05:59 Asia/Dhaka] PHP Notice:  Undefined index: title in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 33
+[10-Nov-2018 10:05:59 Asia/Dhaka] PHP Notice:  Undefined index: details in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 34
+[10-Nov-2018 10:05:59 Asia/Dhaka] PHP Notice:  Undefined index: tags in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 35
+[10-Nov-2018 10:05:59 Asia/Dhaka] PHP Notice:  Undefined index: status in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 36
+[10-Nov-2018 10:15:49 Asia/Dhaka] PHP Notice:  Undefined index: title in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 33
+[10-Nov-2018 10:15:49 Asia/Dhaka] PHP Notice:  Undefined index: details in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 34
+[10-Nov-2018 10:15:49 Asia/Dhaka] PHP Notice:  Undefined index: tags in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 35
+[10-Nov-2018 10:16:29 Asia/Dhaka] PHP Notice:  Undefined index: adetails in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 34
+[10-Nov-2018 10:16:29 Asia/Dhaka] PHP Notice:  Undefined index: astatus in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 36
+[10-Nov-2018 10:17:20 Asia/Dhaka] PHP Notice:  Undefined index: adetails in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 34
+[10-Nov-2018 10:17:20 Asia/Dhaka] PHP Notice:  Undefined index: astatus in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 36
+[10-Nov-2018 10:28:54 Asia/Dhaka] PHP Notice:  Undefined index: articleimages in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 37
+[10-Nov-2018 10:28:54 Asia/Dhaka] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 46
+[10-Nov-2018 10:32:02 Asia/Dhaka] PHP Notice:  Undefined index: articleimages in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 37
+[10-Nov-2018 10:32:02 Asia/Dhaka] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 46
+[10-Nov-2018 12:27:33 Asia/Dhaka] PHP Notice:  Undefined index: page in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 21
+[10-Nov-2018 12:27:33 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class06\blog\admin\articlesHandler.php on line 30

@@ -1,0 +1,316 @@
+[04-Nov-2018 10:53:20 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method Intervention\Image\Image::make() in D:\xampp728\htdocs\r37m\PHP-Project\blog\index.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\xampp728\htdocs\r37m\PHP-Project\blog\index.php on line 13
+[04-Nov-2018 10:54:03 Asia/Dhaka] PHP Fatal error:  Class 'Illuminate\Support\Facades\Facade' not found in D:\xampp728\htdocs\r37m\PHP-Project\blog\vendor\intervention\image\src\Intervention\Image\Facades\Image.php on line 7
+[04-Nov-2018 10:55:56 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Image' not found in D:\xampp728\htdocs\r37m\PHP-Project\blog\index.php:13
+Stack trace:
+#0 {main}
+  thrown in D:\xampp728\htdocs\r37m\PHP-Project\blog\index.php on line 13
+[04-Nov-2018 10:58:41 Asia/Dhaka] PHP Fatal error:  Uncaught Intervention\Image\Exception\NotReadableException: Image source not readable in D:\xampp728\htdocs\r37m\PHP-Project\blog\vendor\intervention\image\src\Intervention\Image\AbstractDecoder.php:345
+Stack trace:
+#0 D:\xampp728\htdocs\r37m\PHP-Project\blog\vendor\intervention\image\src\Intervention\Image\AbstractDriver.php(64): Intervention\Image\AbstractDecoder->init('public/IMG_2016...')
+#1 D:\xampp728\htdocs\r37m\PHP-Project\blog\vendor\intervention\image\src\Intervention\Image\ImageManager.php(52): Intervention\Image\AbstractDriver->init('public/IMG_2016...')
+#2 D:\xampp728\htdocs\r37m\PHP-Project\blog\index.php(15): Intervention\Image\ImageManager->make('public/IMG_2016...')
+#3 {main}
+  thrown in D:\xampp728\htdocs\r37m\PHP-Project\blog\vendor\intervention\image\src\Intervention\Image\AbstractDecoder.php on line 345
+[04-Nov-2018 10:59:31 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method Intervention\Image\ImageManager::save() in D:\xampp728\htdocs\r37m\PHP-Project\blog\index.php:18
+Stack trace:
+#0 {main}
+  thrown in D:\xampp728\htdocs\r37m\PHP-Project\blog\index.php on line 18
+[04-Nov-2018 11:01:49 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method Intervention\Image\ImageManager::save() in D:\xampp728\htdocs\r37m\PHP-Project\blog\index.php:18
+Stack trace:
+#0 {main}
+  thrown in D:\xampp728\htdocs\r37m\PHP-Project\blog\index.php on line 18
+[04-Nov-2018 11:03:24 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method Intervention\Image\Image::make() in D:\xampp728\htdocs\r37m\PHP-Project\blog\index.php:14
+Stack trace:
+#0 {main}
+  thrown in D:\xampp728\htdocs\r37m\PHP-Project\blog\index.php on line 14
+[04-Nov-2018 11:04:21 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method Intervention\Image\Image::make() in D:\xampp728\htdocs\r37m\PHP-Project\blog\index.php:14
+Stack trace:
+#0 {main}
+  thrown in D:\xampp728\htdocs\r37m\PHP-Project\blog\index.php on line 14
+[04-Nov-2018 11:05:04 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method Intervention\Image\Image::make() in D:\xampp728\htdocs\r37m\PHP-Project\blog\index.php:14
+Stack trace:
+#0 {main}
+  thrown in D:\xampp728\htdocs\r37m\PHP-Project\blog\index.php on line 14
+[14-Nov-2018 13:53:11 Asia/Dhaka] App\Database::create DB ERROR query: INSERT INTO `users` (`username`,`useremail`,`userpass`,`status`) VALUES ('mamun4','mamun4@gmail.com','$2y$10$ZPeYsgqKrwKEXQKleNWcCebJ4PsHopSGxiwCeodGBEHjI6/DoHYH2','1')
+[15-Nov-2018 10:40:56 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function App\getSessionData() in D:\xampp728\htdocs\r37m\jQuery\class11\blog\src\Session.php:12
+Stack trace:
+#0 D:\xampp728\htdocs\r37m\jQuery\class11\blog\create.php(5): App\Session::user()
+#1 {main}
+  thrown in D:\xampp728\htdocs\r37m\jQuery\class11\blog\src\Session.php on line 12
+[15-Nov-2018 10:50:32 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Session' not found in D:\xampp728\htdocs\r37m\jQuery\class11\blog\partials\mainmenu.php:24
+Stack trace:
+#0 D:\xampp728\htdocs\r37m\jQuery\class11\blog\index.php(17): require()
+#1 {main}
+  thrown in D:\xampp728\htdocs\r37m\jQuery\class11\blog\partials\mainmenu.php on line 24
+[15-Nov-2018 10:51:17 Asia/Dhaka] PHP Warning:  require(D:\xampp728\htdocs\r37m\jQuery\class11\blog\partials/vendor/autoload.php): failed to open stream: No such file or directory in D:\xampp728\htdocs\r37m\jQuery\class11\blog\partials\mainmenu.php on line 2
+[15-Nov-2018 10:51:17 Asia/Dhaka] PHP Fatal error:  require(): Failed opening required 'D:\xampp728\htdocs\r37m\jQuery\class11\blog\partials/vendor/autoload.php' (include_path='D:\xampp728\php\PEAR') in D:\xampp728\htdocs\r37m\jQuery\class11\blog\partials\mainmenu.php on line 2
+[15-Nov-2018 11:39:10 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Class 'Image' not found in D:\xampp728\htdocs\r37m\jQuery\class11\blog\create.php:37
+Stack trace:
+#0 {main}
+  thrown in D:\xampp728\htdocs\r37m\jQuery\class11\blog\create.php on line 37
+[15-Nov-2018 11:39:43 Asia/Dhaka] PHP Fatal error:  Uncaught Intervention\Image\Exception\NotReadableException: Image source not readable in D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\AbstractDecoder.php:345
+Stack trace:
+#0 D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\AbstractDriver.php(64): Intervention\Image\AbstractDecoder->init('../assets/artic...')
+#1 D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\ImageManager.php(52): Intervention\Image\AbstractDriver->init('../assets/artic...')
+#2 D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\ImageManagerStatic.php(57): Intervention\Image\ImageManager->make('../assets/artic...')
+#3 D:\xampp728\htdocs\r37m\jQuery\class11\blog\create.php(43): Intervention\Image\ImageManagerStatic::make('../assets/artic...')
+#4 {main}
+  thrown in D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\AbstractDecoder.php on line 345
+[15-Nov-2018 11:40:22 Asia/Dhaka] PHP Fatal error:  Uncaught Intervention\Image\Exception\NotReadableException: Image source not readable in D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\AbstractDecoder.php:345
+Stack trace:
+#0 D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\AbstractDriver.php(64): Intervention\Image\AbstractDecoder->init('../assets/artic...')
+#1 D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\ImageManager.php(52): Intervention\Image\AbstractDriver->init('../assets/artic...')
+#2 D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\ImageManagerStatic.php(57): Intervention\Image\ImageManager->make('../assets/artic...')
+#3 D:\xampp728\htdocs\r37m\jQuery\class11\blog\create.php(43): Intervention\Image\ImageManagerStatic::make('../assets/artic...')
+#4 {main}
+  thrown in D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\AbstractDecoder.php on line 345
+[15-Nov-2018 11:41:28 Asia/Dhaka] PHP Fatal error:  Uncaught Intervention\Image\Exception\NotReadableException: Image source not readable in D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\AbstractDecoder.php:345
+Stack trace:
+#0 D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\AbstractDriver.php(64): Intervention\Image\AbstractDecoder->init('../assets/artic...')
+#1 D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\ImageManager.php(52): Intervention\Image\AbstractDriver->init('../assets/artic...')
+#2 D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\ImageManagerStatic.php(57): Intervention\Image\ImageManager->make('../assets/artic...')
+#3 D:\xampp728\htdocs\r37m\jQuery\class11\blog\create.php(43): Intervention\Image\ImageManagerStatic::make('../assets/artic...')
+#4 {main}
+  thrown in D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\AbstractDecoder.php on line 345
+[15-Nov-2018 11:42:57 Asia/Dhaka] PHP Fatal error:  Uncaught Intervention\Image\Exception\NotReadableException: Image source not readable in D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\AbstractDecoder.php:345
+Stack trace:
+#0 D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\AbstractDriver.php(64): Intervention\Image\AbstractDecoder->init('../assets/artic...')
+#1 D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\ImageManager.php(52): Intervention\Image\AbstractDriver->init('../assets/artic...')
+#2 D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\ImageManagerStatic.php(57): Intervention\Image\ImageManager->make('../assets/artic...')
+#3 D:\xampp728\htdocs\r37m\jQuery\class11\blog\create.php(43): Intervention\Image\ImageManagerStatic::make('../assets/artic...')
+#4 {main}
+  thrown in D:\xampp728\htdocs\r37m\jQuery\class11\blog\vendor\intervention\image\src\Intervention\Image\AbstractDecoder.php on line 345
+[17-Nov-2018 10:30:51 Asia/Dhaka] PHP Notice:  Undefined index: acat in D:\xampp728\htdocs\r37m\jQuery\class12\blog\create.php on line 18
+[17-Nov-2018 10:30:51 Asia/Dhaka] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp728\htdocs\r37m\jQuery\class12\blog\create.php on line 19
+[17-Nov-2018 10:31:18 Asia/Dhaka] PHP Notice:  Undefined index: acat in D:\xampp728\htdocs\r37m\jQuery\class12\blog\create.php on line 18
+[17-Nov-2018 10:31:18 Asia/Dhaka] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp728\htdocs\r37m\jQuery\class12\blog\create.php on line 19
+[17-Nov-2018 10:37:25 Asia/Dhaka] App\Database::create DB ERROR query: INSERT INTO `articles` (`article_id`,`category_id`) VALUES ('152','6')
+[17-Nov-2018 10:37:25 Asia/Dhaka] App\Database::create DB ERROR query: INSERT INTO `articles` (`article_id`,`category_id`) VALUES ('152','5')
+[17-Nov-2018 10:37:25 Asia/Dhaka] App\Database::create DB ERROR query: INSERT INTO `articles` (`article_id`,`category_id`) VALUES ('152','4')
+[17-Nov-2018 11:08:16 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:08:16 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:08:16 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:08:16 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:10:43 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:10:43 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:10:43 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:10:43 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:11:16 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:11:16 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:11:16 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:11:16 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:13:01 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:13:01 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:13:01 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:13:01 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:13:31 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:13:31 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:13:31 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:13:31 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:13:32 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:13:32 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:13:32 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:13:32 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:17:00 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:17:00 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:17:00 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:17:00 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:17:13 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:17:13 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:17:13 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:17:13 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:17:15 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:17:15 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:17:15 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:17:15 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:17:15 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:17:15 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:17:15 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:17:15 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:17:51 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:17:51 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:17:51 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:17:51 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:19:09 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:19:09 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:19:09 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:19:09 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:21:26 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:21:26 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:21:26 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:21:26 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:22:08 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:22:08 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:22:08 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:22:08 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:22:24 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:22:24 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:22:24 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:22:24 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:23:13 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:23:13 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:23:13 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:23:13 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:23:26 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:23:26 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:23:26 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:23:26 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[17-Nov-2018 11:39:49 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 44
+[17-Nov-2018 11:39:49 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:39:49 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 48
+[17-Nov-2018 11:39:49 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class12\blog\blog-post.php on line 57
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:18:35 Asia/Dhaka] PHP Notice:  Undefined index: imagename in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\index.php on line 72
+[18-Nov-2018 11:27:33 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function App\debug_log() in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\src\Database.php:200
+Stack trace:
+#0 D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php(8): App\Database->get_all_where('id=5')
+#1 {main}
+  thrown in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\src\Database.php on line 200
+[18-Nov-2018 11:27:54 Asia/Dhaka] App\Database::get_all_whereERROR mysqli query : SELECT * FROM `` where id=5 ORDER BY id DESC
+[18-Nov-2018 11:48:36 Asia/Dhaka] PHP Fatal error:  Uncaught Intervention\Image\Exception\NotReadableException: Unsupported image type. GD driver is only able to decode JPG, PNG, GIF or WebP files. in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\vendor\intervention\image\src\Intervention\Image\Gd\Decoder.php:57
+Stack trace:
+#0 D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\vendor\intervention\image\src\Intervention\Image\AbstractDecoder.php(338): Intervention\Image\Gd\Decoder->initFromPath('assets/articlei...')
+#1 D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\vendor\intervention\image\src\Intervention\Image\AbstractDriver.php(64): Intervention\Image\AbstractDecoder->init('assets/articlei...')
+#2 D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\vendor\intervention\image\src\Intervention\Image\ImageManager.php(52): Intervention\Image\AbstractDriver->init('assets/articlei...')
+#3 D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\vendor\intervention\image\src\Intervention\Image\ImageManagerStatic.php(57): Interventio in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\vendor\intervention\image\src\Intervention\Image\Gd\Decoder.php on line 57
+[18-Nov-2018 12:34:40 Asia/Dhaka] PHP Notice:  Undefined variable: allcats in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 73
+[18-Nov-2018 12:34:40 Asia/Dhaka] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 73
+[18-Nov-2018 12:34:40 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 85
+[18-Nov-2018 12:34:40 Asia/Dhaka] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 85
+[18-Nov-2018 12:34:49 Asia/Dhaka] PHP Notice:  Undefined variable: allcats in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 73
+[18-Nov-2018 12:34:49 Asia/Dhaka] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 73
+[18-Nov-2018 12:34:49 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 85
+[18-Nov-2018 12:34:49 Asia/Dhaka] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 85
+[18-Nov-2018 12:34:58 Asia/Dhaka] PHP Notice:  Undefined variable: allcats in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 73
+[18-Nov-2018 12:34:58 Asia/Dhaka] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 73
+[18-Nov-2018 12:34:58 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 85
+[18-Nov-2018 12:34:58 Asia/Dhaka] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 85
+[18-Nov-2018 12:36:08 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 72
+[18-Nov-2018 12:36:08 Asia/Dhaka] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 72
+[18-Nov-2018 12:43:19 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:43:19 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 90
+[18-Nov-2018 12:43:19 Asia/Dhaka] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 90
+[18-Nov-2018 12:43:23 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:43:23 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 90
+[18-Nov-2018 12:43:23 Asia/Dhaka] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 90
+[18-Nov-2018 12:43:52 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:43:57 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:44:00 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:44:59 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:45:02 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:45:02 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:45:03 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:45:03 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:45:04 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:45:04 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:45:04 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:45:04 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:45:05 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:45:05 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:45:05 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:45:06 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:45:06 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:45:06 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:45:07 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:46:23 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 10
+[18-Nov-2018 12:47:29 Asia/Dhaka] PHP Notice:  Undefined variable: start in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 25
+[18-Nov-2018 12:47:29 Asia/Dhaka] PHP Notice:  Undefined variable: count in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\category.php on line 25
+[18-Nov-2018 12:56:07 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\blog-post.php on line 59
+[18-Nov-2018 12:56:07 Asia/Dhaka] PHP Notice:  Undefined variable: imageQueryResult in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\blog-post.php on line 63
+[18-Nov-2018 12:56:07 Asia/Dhaka] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\blog-post.php on line 63
+[18-Nov-2018 12:56:07 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\blog-post.php on line 72
+[18-Nov-2018 12:56:07 Asia/Dhaka] PHP Notice:  Undefined variable: users in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\blog-post.php on line 73
+[18-Nov-2018 12:56:07 Asia/Dhaka] PHP Notice:  Undefined variable: articles in D:\xampp728\htdocs\r37m\jQuery\class13\blog18112018\blog\blog-post.php on line 74
